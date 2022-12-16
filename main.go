@@ -35,7 +35,7 @@ func main(){
 	// Subset returns true if collection x is a subset of y.
 	subset := funk.Subset(slice1, slice2)
 	fmt.Println("subset", " => ",subset)
-
+	
 	// Equal returns if the two objects are equal
 	Equal := funk.Equal(slice1, slice2)
 	fmt.Println("Equal", " => ",Equal)
